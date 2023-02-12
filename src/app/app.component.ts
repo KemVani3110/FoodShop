@@ -7,4 +7,25 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FoodShop';
+
+  food = [
+    {
+      title: "Gà rán",
+      photoURL:'../assets/chicken.png',
+      content: "Đây là một cái đuồi gà",
+    },
+    {
+      title: "Gà rán",
+      photoURL:'../assets/chicken.png',
+      content: "Đây là một cái đuồi gà",
+    },
+    {
+      title: "Gà rán",
+      photoURL:'../assets/chicken.png',
+      content: "Đây là một cái đuồi gà",
+    }
+
+  ]
+
+
 }
