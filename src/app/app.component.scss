@@ -49,14 +49,11 @@ section {
   margin: 8px 8px 8px 0;
 }
 
-#search{
-  display: contents;
-  align-items: end;
-}
+
 
 .food{
   display: grid;
-
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 #add {
@@ -67,6 +64,22 @@ section {
 
 #add_btn
 {
+  display: flex;
   width: 50%;
   background-color: green;
+  justify-content: center;
+  align-self: center;
+}
+
+#price
+{
+  color: #ff5b6a;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+#love{
+  margin-left: 20px;
 }
