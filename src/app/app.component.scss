@@ -81,12 +81,16 @@ section {
 }
 
 #love{
-  margin-left: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  size: 20%;
 }
+
 .page{
   display: flex;
   align-self: center;
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-left: 150px;
 }
 
 h1{
