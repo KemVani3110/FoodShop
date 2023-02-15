@@ -1,0 +1,29 @@
+<div class="holder">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>{{item.title}}</mat-card-title>
+        <img mat-card-md-image src="{{item.photoURL}}">
+      </mat-card-title-group>
+    </mat-card-header>
+    <br>
+    <mat-card-content>
+      <p>{{item.content}}</p>
+      <hr>
+      <br>
+      <p id="price">{{item.price}}</p>
+      <span *ngIf="item.status == true">Còn hàng</span>
+      <span *ngIf="item.status == false ">Hết hàng</span>
+
+      <!-- <span>{{getItemStaus(Food.status)}}</span> -->
+
+      </mat-card-content>
+
+      <!-- <mat-card-footer>
+        <mat-card-actions id="add">
+          <button>+</button>
+          <button>-</button>
+        </mat-card-actions>
+      </mat-card-footer> -->
+  </mat-card>
+</div>

@@ -1,0 +1,38 @@
+#add {
+  display: flex;
+  justify-content: center;
+  size: 200px
+}
+
+#add_btn
+{
+  display: flex;
+  width: 50%;
+  background-color: green;
+  justify-content: center;
+  align-self: center;
+}
+
+#price
+{
+  color: #ff5b6a;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+#love{
+  margin-left: 10px;
+  cursor: pointer;
+  size: 20%;
+}
+
+
+.example-card {
+  max-width: 400px;
+  margin-top: 8px;
+  margin-right: 9px;
+  margin-bottom: 8px;
+  display: flex;
+}

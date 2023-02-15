@@ -1,0 +1,21 @@
+#title{
+  display: flex;
+  font-size: 200%;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#go{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#paid{
+  display: flex;
+  background-color: green;
+}
+#pai{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}

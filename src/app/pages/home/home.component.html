@@ -1,0 +1,22 @@
+<h1 >Các món đồ ăn xịn!!</h1>
+<div class="food">
+  <app-itemcard *ngFor="let fod of food" [Food]="fod" (Foodchange)="getName($event)"></app-itemcard>
+  </div>
+<div class="super_page">
+  <footer>
+    <div class="page">
+      <button class="button" mat-stroked-button color="primary">
+        <mat-icon>fast_rewind</mat-icon>
+      </button>
+      <button class="button" mat-stroked-button color="primary">1</button>
+      <button class="button" mat-stroked-button color="primary">2</button>
+      <button class="button" mat-stroked-button color="primary">3</button>
+      <button class="button" mat-stroked-button color="primary">...</button>
+      <button class="button" mat-stroked-button color="primary">20</button>
+      <button class="button" mat-stroked-button color="primary">
+        <mat-icon>fast_forward</mat-icon>
+      </button>
+    </div>
+  </footer>
+
+</div>
