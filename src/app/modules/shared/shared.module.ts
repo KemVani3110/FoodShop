@@ -9,7 +9,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatMenuModule} from '@angular/material/menu';
 import { ItemcardComponent } from '../../components/itemcard/itemcard.component';
 import { ItemcardCartComponent } from '../../components/itemcard-cart/itemcard-cart.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [ItemcardComponent, ItemcardCartComponent],
   imports: [
@@ -20,6 +20,7 @@ import { ItemcardCartComponent } from '../../components/itemcard-cart/itemcard-c
     MatCardModule,
     MatInputModule,
     MatMenuModule,
+    HttpClientModule
 
 
   ],
@@ -31,7 +32,8 @@ import { ItemcardCartComponent } from '../../components/itemcard-cart/itemcard-c
     MatCardModule,
     MatInputModule,
     MatMenuModule,
-    ItemcardCartComponent
+    ItemcardCartComponent,
+    HttpClientModule
 
 
    ]

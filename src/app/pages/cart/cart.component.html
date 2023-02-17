@@ -1,16 +1,21 @@
 <div>
   <div id="title">Your stuffs here</div>
+</div>
+
+<div id="pai" >
+
+  <button id="paid">Thanh toán đê</button>
+
+</div>
+
+<div>
   <div id="go">
   <div id="item_container" *ngFor="let c of cart">
     <app-itemcard-cart [item]= "c.food" (addFoodCallBack)="addFood($event)"></app-itemcard-cart>
-      <!-- <div>{{c.quantity}}</div> -->
+      <div id="soluong">Số lượng: {{c.quantity}}</div>
+      <div id="price">Tổng tiền: {{c.quantity * c.food.price | currency:"VND"}}</div>
   </div>
 </div>
 </div>
-<footer>
-<div id="pai" >
 
-    <button id="paid">Thanh toán đê</button>
 
-</div>
-</footer>

@@ -15,6 +15,13 @@ export class ServiceService {
 
   addFood(food: any)
   {
+    for(let i=0; i< this.cart.length; i++){
+      if(this.cart[i].food.id == food.id){
+        this.cart[i].quantity +=1;
+        console.log(this.cart);
+        return;
+      }
+    }
     this.cart.push({
       food: food,
       quantity: 1

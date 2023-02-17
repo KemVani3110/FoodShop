@@ -1,13 +1,23 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { News } from './Model/news.model';
+import { Component, OnInit } from '@angular/core';
 
+import { HttpService } from './services/http.service';
+import { Observable } from 'rxjs';
+import { onAuthStateChanged, user } from '@angular/fire/auth';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'FoodShop';
+constructor(private HttpService: HttpService,){}
+  ngOnInit(): void {
+    // this.news$ = this.HttpService.get();
+
+  }
+
+news$ = new Observable<News[]>();
 
 
 

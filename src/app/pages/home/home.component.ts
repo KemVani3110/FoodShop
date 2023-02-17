@@ -12,7 +12,7 @@ export class HomeComponent {
       title: "Gà rán",
       photoURL:'../assets/garan.png',
       content: "Đây là một cái đùi gà rất giòn và ngon và rất rẻ.",
-      price: "38.000đ",
+      price: 38000,
       status: true,
     },
     {
@@ -21,7 +21,7 @@ export class HomeComponent {
       title: "Gà rán phô mai",
       photoURL:'../assets/phomai.png',
       content: "Đây là một cái đuồi gà thêm lớp xốt phô mai.",
-      price: "58.000đ",
+      price: 58000,
       status: false
     },
     {
@@ -29,7 +29,7 @@ export class HomeComponent {
       title: "Gà popcorn",
       photoURL:'../assets/popcorn.png',
       content: "Đây là một ly gà hình popcorn rất ngon và giá cả phải chăng.",
-      price: "68.000đ",
+      price: 68000,
       status: true
     },
     {
@@ -37,7 +37,7 @@ export class HomeComponent {
       title: "Gà Nugget",
       photoURL:'../assets/nugget.png',
       content: "Đây là bộ 3 miếng gà hình tròn. Thường dành cho trẻ con ăn chơi.",
-      price: "28.000đ",
+      price: 28000,
       status: true,
     },
     {
@@ -45,7 +45,7 @@ export class HomeComponent {
       title: "Gà nướng nguyên con",
       photoURL:'../assets/nuong.png',
       content: "Đây là một con gà nướng đặc biệt nướng bằng nước sốt gia truyền.",
-      price: "599.000đ",
+      price: 599000,
       status: false,
     },
     {
@@ -53,7 +53,7 @@ export class HomeComponent {
       title: "Pizza hải sản",
       photoURL:'../assets/pizza.png',
       content: "Đây là một cái pizza hải sản được đầu bếp vjp pro thực hiện.",
-      price: "179.000đ",
+      price: 179000,
       status: true,
     },
     {
@@ -61,7 +61,7 @@ export class HomeComponent {
       title: "Bánh mì",
       photoURL:'../assets/banhmi.png',
       content: "Đây là một ổ bánh mì được các pháp sư trung hoa chế biến.",
-      price: "50.000đ",
+      price: 50000,
       status: true,
     },
     {
@@ -69,7 +69,7 @@ export class HomeComponent {
       title: "Xôi mặn",
       photoURL:'../assets/xoiman.png',
       content: "Đây là một hộp xôi mặn được các cô chú ngoài chợ chế biến.",
-      price: "28.000đ",
+      price: 28000,
       status: true,
     },
     {
@@ -77,7 +77,7 @@ export class HomeComponent {
       title: "Cơm gà xối mỡ",
       photoURL:'../assets/comga.png',
       content: "Đây là một dĩa cơm gà xối mỡ được chế biến rất kung fu",
-      price: "30.000đ",
+      price: 30000,
       status: false,
     },
     {
@@ -85,7 +85,7 @@ export class HomeComponent {
       title: "Cá viên chiên",
       photoURL:'../assets/cavien.png',
       content: "Đây là một hộp cá viên chiên được chiên trong dầu thực vật",
-      price: "8.000đ",
+      price: 8000,
       status: true,
     },
     {
@@ -93,7 +93,7 @@ export class HomeComponent {
       title: "Xúc xích Đức",
       photoURL:'../assets/xucxich.png',
       content: "Đây là một cây xúc xích Đức rất bình thường được nướng trên lò",
-      price: "88.000đ",
+      price: 88000,
       status: false,
     },
   ]

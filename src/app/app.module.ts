@@ -7,6 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './modules/shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { ToolsbarComponent } from './components/toolsbar/toolsbar.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
 
 
 @NgModule({
@@ -21,7 +24,9 @@ import { ToolsbarComponent } from './components/toolsbar/toolsbar.component';
     AppRoutingModule,
     SharedModule,
     BrowserAnimationsModule,
-    RouterModule
+    RouterModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth())
   ],
   providers: [],
   bootstrap: [AppComponent]

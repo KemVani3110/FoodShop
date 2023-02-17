@@ -11,7 +11,7 @@
       <p>{{item.content}}</p>
       <hr>
       <br>
-      <p id="price">{{item.price}}</p>
+      <p id="price">{{item.price | currency:"VND"}}</p>
       <span *ngIf="item.status == true">Còn hàng</span>
       <span *ngIf="item.status == false ">Hết hàng</span>
 

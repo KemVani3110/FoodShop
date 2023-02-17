@@ -12,10 +12,33 @@
 
 #paid{
   display: flex;
+  width: 250px;
   background-color: green;
+  justify-content: center;
+  align-self: center;
+  height: 30px;
+  font-size: 18px;
 }
+
 #pai{
   display: flex;
   margin-top: 10px;
   justify-content: center;
+}
+#soluong{
+  margin-top: 10px;
+  font-size: 25px;
+  color: #ff5b6a;
+}
+
+#price{
+  margin-top: 10px;
+  font-size: 25px;
+  color: #ff5b6a;
+}
+#item_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
